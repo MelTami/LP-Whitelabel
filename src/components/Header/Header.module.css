@@ -1,0 +1,55 @@
+.header {
+  width: 1280px;
+  height: 48px;
+  left: 1px;
+  padding: 11.7px 40.68px 12px 40.84px;
+  gap: 0px;
+  border: 0px 0px 0.7px 0px;
+  opacity: 0px;
+  background: #ffffff;
+  border-bottom: 0.7px solid #dcddde;
+  display: flex;
+}
+.logo {
+  display: flex;
+  margin-right: 350px;
+  width: 164.66px;
+  height: 24px;
+  top: 11.7px;
+  left: 40.84px;
+  gap: 12px;
+  opacity: 0px;
+}
+.brand {
+  width: 76.67px;
+  height: 24px;
+  gap: 8px;
+  opacity: 0px;
+  display: flex;
+}
+
+.p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #8449bf;
+  width: 50px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+}
+.imglogo {
+  width: 63.99px;
+  height: 22.73px;
+  gap: 0px;
+  opacity: 0px;
+  padding-left: 8px;
+  border-left: 1.5px solid black;
+}
+.imgbrand {
+  background-image: var(--WL, #8449bf);
+  width: 18.67px;
+  height: 18.67px;
+}
