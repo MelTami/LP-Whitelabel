@@ -1,5 +1,4 @@
 .navbar {
-  display: flex;
   font-family: "Lexend", sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -9,10 +8,4 @@
   opacity: 0px;
   justify-content: end;
   color: #5b5a5a;
-  gap: 16px;
-  overflow: hidden;
-}
-.item {
-  float: left;
-  margin-right: 16px;
 }
