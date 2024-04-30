@@ -4,7 +4,7 @@ import style from "./Navbar.module.css";
 export function Navbar() {
   return (
     <nav className={style.navbar}>
-      <ul className="flex gap-x-4 font-lexend font-normal">
+      <ul className="flex justify-end gap-x-4 font-lexend font-normal">
         <li>Início</li>
         <li>Vantagens</li>
         <li>Como funciona</li>

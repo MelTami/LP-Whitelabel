@@ -9,7 +9,11 @@ export default function Footer() {
     <footer className="bg-white gap-6">
       <div className="flex items-center justify-center py-8 gap-3">
         <div className="flex gap-2">
-          <Image src={img} alt="brand" className="w-5 h-5" />
+          <Image
+            src={img}
+            alt="Purple square with a cross in the middle"
+            className="w-5 h-5"
+          />
           <p className="font-sans text-purple-700 align-middle text-base font-semibold">
             Brand{" "}
           </p>

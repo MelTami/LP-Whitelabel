@@ -1,32 +1,26 @@
 import { Navbar } from "../Navbar/Navbar";
-import style from "./Header.module.css";
 import Image from "next/image";
 import logo from "./logo_matrix_laranja.png";
 import rec from "./Rectangle 14 (Stroke).png";
 
 export default function Header() {
   return (
-    <header className={style.header}>
-      <div className={style.logo}>
-        <div className={style.brand}>
+    <header>
+      <div className="flex">
+        <div className="flex">
           <Image
             src={rec}
             alt="Purple square with a cross in the middle"
-            width={18.67}
-            height={18.67}
-            className={style.imgbrand}
+            className="w-5 h-5"
           />
-          <p className={style.p}>Brand </p>
+          <p className="font-sans text-purple-700 align-middle text-base font-semibold">
+            Brand
+          </p>
         </div>
-        <Image
-          src={logo}
-          alt="Matrix Logo"
-          width={63.99}
-          height={22.73}
-          className={style.imglogo}
-        />
+        <div className="bg-black w-px h-5"></div>
+        <Image src={logo} alt="Matrix Logo" className="pl-3 w-16" />
       </div>
-      <div className={style.navbar}>
+      <div>
         <Navbar />
       </div>
     </header>
