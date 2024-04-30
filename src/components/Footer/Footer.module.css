@@ -1,0 +1,28 @@
+.footer {
+  .p {
+    font-family: "Poppins", sans-serif;
+    color: #8449bf;
+  }
+  .imglogo {
+    height: 22.73px;
+    opacity: 0px;
+    padding-left: 3.5px;
+    border-left: 1.5px solid black;
+  }
+  .imgbrand {
+    background-image: var(--WL, #8449bf);
+  }
+}
+
+.copy {
+  font-family: "Lexend", sans-serif;
+}
+
+.textfooter {
+  text-align: center;
+  margin: 10px;
+  font-family: Lexend;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+}
