@@ -14,7 +14,7 @@ const poppins = Poppins({
   subsets: ["latin"],
   weight: "100",
   display: "swap",
-  variable: "--font-lexend",
+  variable: "--font-poppins",
 });
 
 export const metadata: Metadata = {
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${lexend.variable} ${poppins.className}`}>
+    <html lang="en" className={`${lexend.variable} ${poppins.variable}`}>
       <head></head>
       <body className={inter.className}>{children}</body>
     </html>

@@ -1,9 +1,8 @@
 import React from "react";
-import style from "./Navbar.module.css";
 
 export function Navbar() {
   return (
-    <nav className={style.navbar}>
+    <nav>
       <ul className="flex justify-end gap-x-4 font-lexend font-normal">
         <li>Início</li>
         <li>Vantagens</li>

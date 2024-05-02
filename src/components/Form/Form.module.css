@@ -1,0 +1,15 @@
+.form {
+  width: Fixed (409px) px;
+  height: Hug (46px) px;
+  gap: 2px;
+  opacity: 0px;
+}
+.input {
+  width: Fill (409px) px;
+  height: Hug (26px) px;
+  padding: 4px 8px 4px 0px;
+  gap: 8px;
+  border: 0px 0px 1px 0px;
+  opacity: 0px;
+  border-bottom: 1px solid rgba(131, 133, 135, 1);
+}

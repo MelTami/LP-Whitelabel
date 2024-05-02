@@ -8,15 +8,15 @@ export default function Home() {
     <>
       <Header />
       <section>
-        <div className="w-96">
+        <div className="w-128 font-sans">
           <div>
-            <h1 className="font-bold">Sua conta de luz</h1>
-            <h1 className="font-bold text-purple-700">
+            <h1 className="font-bold text-3xl">Sua conta de luz</h1>
+            <h1 className=" font-bold text-purple-700 text-3xl">
               mais barata e mais sustentável
             </h1>
-            <caption className="font-light">
-              Preencha os campos abaixo e simule o quanto você pode economizar.{" "}
-            </caption>
+            <p className="font-light text-xs">
+              Preencha os campos abaixo e simule o quanto você pode economizar.
+            </p>
           </div>
           <Form />
         </div>

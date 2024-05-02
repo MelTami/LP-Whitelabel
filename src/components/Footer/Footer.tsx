@@ -14,12 +14,12 @@ export default function Footer() {
             alt="Purple square with a cross in the middle"
             className="w-5 h-5"
           />
-          <p className="font-sans text-purple-700 align-middle text-base font-semibold">
-            Brand{" "}
+          <p className="font-poppins text-purple-700 align-middle text-base font-semibold">
+            Brand
           </p>
         </div>
         <div className="bg-black w-px h-5"></div>
-        <Image src={logo} alt="footer img" className="pl-3 w-16" />
+        <Image src={logo} alt="footer img" width={63.99} height={22.73} />
       </div>
       <div className="text-center">
         <p className="font-sans text-black text-xs font-medium">

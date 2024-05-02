@@ -1,3 +1,4 @@
+import { Poppins } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -13,7 +14,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      fontFamily: { sans: ["var(--font-lexend)", "var(--font-poppins)"] },
+      fontFamily: {
+        sans: ["var(--font-lexend)"],
+        poppins: ["var(--font-poppins)"],
+      },
+      width: {
+        "429": "26.813rem",
+        "397": "24.813rem",
+        "128": "32rem",
+      },
     },
   },
   plugins: [],
