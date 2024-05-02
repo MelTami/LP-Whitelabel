@@ -13,3 +13,17 @@
   opacity: 0px;
   border-bottom: 1px solid rgba(131, 133, 135, 1);
 }
+
+.button {
+  width: Fixed (409px) px;
+  height: Hug (48px) px;
+  padding: 12px 0px 0px 0px;
+  gap: 10px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+  font-family: Lexend;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}

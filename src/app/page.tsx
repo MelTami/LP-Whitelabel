@@ -8,10 +8,10 @@ export default function Home() {
     <>
       <Header />
       <section>
-        <div className="w-128 font-sans">
+        <div className="w-128 font-sans gap-6">
           <div>
-            <h1 className="font-bold text-3xl">Sua conta de luz</h1>
-            <h1 className=" font-bold text-purple-700 text-3xl">
+            <h1 className="font-bold text-title">Sua conta de luz</h1>
+            <h1 className=" font-bold text-lilac text-title">
               mais barata e mais sustentável
             </h1>
             <p className="font-light text-xs">

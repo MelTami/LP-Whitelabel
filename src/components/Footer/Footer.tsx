@@ -14,7 +14,7 @@ export default function Footer() {
             alt="Purple square with a cross in the middle"
             className="w-5 h-5"
           />
-          <p className="font-poppins text-purple-700 align-middle text-base font-semibold">
+          <p className="font-poppins text-lilac align-middle text-base font-semibold">
             Brand
           </p>
         </div>

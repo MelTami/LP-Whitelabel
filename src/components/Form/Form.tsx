@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Form() {
   return (
-    <form className="gap-0.5 flex w-429 h-397">
-      <div className="font-normal gap-0.5 text-sm">
+    <form className="flex-box gap-8  w-429 h-397">
+      <div className="font-light text-sm">
         <label htmlFor="name" className="font-medium">
           Nome Completo
         </label>
@@ -80,7 +80,11 @@ export default function Form() {
           id="code"
         />
       </div>
-      <div></div>
+      <div>
+        <button className="pl-3 font-sans border-lilac rounded font-bold text-base text-center">
+          Simular economia
+        </button>
+      </div>
     </form>
   );
 }

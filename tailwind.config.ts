@@ -23,6 +23,12 @@ const config: Config = {
         "397": "24.813rem",
         "128": "32rem",
       },
+      fontSize: {
+        title: ["2rem", "2.14rem"],
+      },
+      colors: {
+        lilac: "rgb(132, 73, 191)",
+      },
     },
   },
   plugins: [],
