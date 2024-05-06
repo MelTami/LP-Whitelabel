@@ -1,4 +1,4 @@
-import { Navbar } from "../Navbar/Navbar";
+import { Navbar } from "./Navbar/Navbar";
 import Image from "next/image";
 import logo from "./logo_matrix_laranja.png";
 import rec from "./Rectangle 14 (Stroke).png";

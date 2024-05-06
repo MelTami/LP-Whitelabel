@@ -30,9 +30,12 @@ const config: Config = {
         "63.99": "3.999rem",
         "1280": "1280px",
         "710": "710px",
+        "1086": "1086.52px",
       },
       height: {
         "22.73": "1.421rem",
+        "523": "32.688rem",
+        "592": "592.87px",
       },
       fontSize: {
         title: ["2rem", "2.14rem"],
@@ -47,6 +50,8 @@ const config: Config = {
       },
       spacing: {
         "520": "520px",
+        "30": "117.5px",
+        "349": "349.14px",
       },
       colors: {
         lilac: "rgb(132, 73, 191, 1)",
