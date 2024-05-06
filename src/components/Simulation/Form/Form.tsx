@@ -1,3 +1,4 @@
+import Button from "@/components/Button/Button";
 import React from "react";
 
 export default function Form() {
@@ -100,9 +101,7 @@ export default function Form() {
         </div>
       </div>
       <div>
-        <button className="p-3 font-sans bg-lilac rounded font-bold text-base text-center text-white w-409">
-          Simular economia
-        </button>
+        <Button />
       </div>
     </form>
   );
