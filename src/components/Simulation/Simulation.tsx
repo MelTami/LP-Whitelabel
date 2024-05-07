@@ -5,8 +5,8 @@ import man from "./handsome-young-black-man-using-smartphone-while-relaxing-couc
 
 export default function Simulation() {
   return (
-    <section className="bg-gradient-to-r from-white flex relative">
-      <div className="w-128 h-523 font-sans gap-6 flex flex-col left-30 top-8 relative">
+    <section className="container bg-gradient-to-r from-white flex relative">
+      <div className="w-128 font-sans gap-6 flex flex-col left-30 top-8 relative bg-gradient-to-r from-white">
         <div>
           <h1 className="font-bold text-title">Sua conta de luz</h1>
           <h1 className=" font-bold text-lilac text-title">
@@ -21,7 +21,6 @@ export default function Simulation() {
       <div>
         <Image
           src={man}
-          className="w-1086"
           alt="handsome-young-black-man-using-smartphone-while-relaxing-couch-home"
         />
       </div>

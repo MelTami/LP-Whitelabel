@@ -3,9 +3,9 @@ import React from "react";
 
 export default function Form() {
   return (
-    <form className="flex flex-col gap-8  w-429 h-397">
+    <form className="flex flex-col gap-8  w-429">
       <div className="font-light text-sm w-409 flex-col flex gap-4">
-        <div className="w-409 h-11.5 gap-0.5 flex-col flex">
+        <div className="w-409 gap-0.5 flex-col flex">
           <label htmlFor="name" className="font-medium w-28">
             Nome Completo
           </label>

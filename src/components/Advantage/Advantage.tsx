@@ -7,13 +7,15 @@ import link from "./image 44.png";
 
 export default function Advantage() {
   return (
-    <section>
-      <h2 className="w-68 text-adv top-10 left-499 font-sans font-bold relative">
+    <section className="container pt-4 md:pt-12 font-sans">
+      <h2 className="mb-8 md:mb-20 text-center text-adv font-bold text-gray-900">
         Conheça as vantagens
       </h2>
-      <div className="gap-16 w-1104 h-64 top-38 left-22 flex relative">
-        <div className="w-228 gap-8.5 flex-rpw">
-          <h3 className="font-bold text-base text-lilac">Sustentável</h3>
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-8 md:grid-cols-4 md:gap-8 lg:gap-20">
+        <div className="mb-12 flex flex-col self-center gap-5 md:items-start order-4 md:order-1 ">
+          <h3 className="font-bold text-base text-lilac md:text-center">
+            Sustentável
+          </h3>
           <Image
             src={tree}
             alt="little tree inside half earth"
@@ -23,7 +25,7 @@ export default function Advantage() {
             Ajude o planeta sendo um consumidor de energia renovável.
           </p>
         </div>
-        <div className="w-228 gap-8.5 flex-row">
+        <div className="mb-12 flex flex-col items-center gap-5 md:items-start order-4 md:order-1">
           <h3 className="font-bold text-base text-lilac">Simples e digital</h3>
           <Image
             src={cellphone}
@@ -35,7 +37,7 @@ export default function Advantage() {
             casa.
           </p>
         </div>
-        <div className="w-228 gap-8.5 flex-row">
+        <div className="mb-12 flex flex-col items-center gap-5 md:items-start order-4 md:order-1">
           <h3 className="font-bold text-base text-lilac">Zero investimento</h3>
           <Image src={pig} alt="pig" className="w-25 h-103" />
           <p className="align-center text-sm">
@@ -43,7 +45,7 @@ export default function Advantage() {
             de placas solares.
           </p>
         </div>
-        <div className="w-228 gap-8.5 flex-row">
+        <div className="mb-12 flex-row self-center gap-5 md:items-start order-4 md:order-1">
           <h3 className="font-bold text-base text-lilac">Sem fidelidade</h3>
           <Image src={link} alt="broken link" className="w-25 h-103" />
           <p className="align-center text-sm">
