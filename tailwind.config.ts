@@ -62,12 +62,15 @@ const config: Config = {
         "499": "499px",
         "38": "153px",
         "22": "90px",
+        "29": "118px",
+        "21": "87.5px",
       },
       colors: {
         lilac: "rgb(132, 73, 191, 1)",
         lgray: "rgb(180, 183, 186,1)",
         ngray: "rgba(91, 90, 90, 1)",
         bgray: "rgba(217, 217, 217, 1)",
+        penblue: "rgba(31, 68, 150, 1)",
       },
       borderWidth: {
         DEFAULT: "1px",

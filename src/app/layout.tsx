@@ -12,7 +12,7 @@ const lexend = Lexend({
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: "100",
+  weight: "600",
   display: "swap",
   variable: "--font-poppins",
 });

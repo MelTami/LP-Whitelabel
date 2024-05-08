@@ -4,7 +4,7 @@ import lighting from "./image 45.png";
 
 export default function GD() {
   return (
-    <section className="container">
+    <section className="font-sans justify-center flex flex-row w-full px-29 pt-21">
       <div id="container" className="gap-16 flex flex-col">
         <div id="title">
           <h2>Entenda mais sobre a Energia Solar por assinatura</h2>
@@ -12,19 +12,16 @@ export default function GD() {
         <div id="content" className="gap-12 flex flex-col">
           <div id="grid" className="gap-14 flex">
             <div id="topic" className="flex flex-col gap-6">
-              <div className="flex">
+              <div className="flex gap-2 align-middle">
                 <div
                   id="img"
                   className="rounded-full border-bgray bg-bgray w-8 h-8 flex justify-center align-middle"
                 >
-                  <Image
-                    src={lighting}
-                    alt="lightning gray"
-                    width={13}
-                    height={20}
-                  />
+                  <Image src={lighting} alt="lightning gray" className="" />
                 </div>
-                <h3>O que é?</h3>
+                <h3 className="font-bold text-base text-lilac md:text-center">
+                  O que é?
+                </h3>
               </div>
               <p>
                 É a modalidade onde a geração de energia elétrica ocorre em
@@ -33,11 +30,16 @@ export default function GD() {
               </p>
             </div>
             <div id="topic" className="flex flex-col gap-6">
-              <div className="flex">
-                <div id="img" className="rounded full">
+              <div className="flex gap-2 align-middle">
+                <div
+                  id="img"
+                  className="rounded-full border-bgray bg-bgray w-8 h-8 flex justify-center align-middle"
+                >
                   <Image src={lighting} alt="lightning gray" />
                 </div>
-                <h3>Por que é mais barato?</h3>
+                <h3 className="font-bold text-base text-lilac md:text-center">
+                  Por que é mais barato?
+                </h3>
               </div>
               <p>
                 As usinas conectadas à plataforma Matrix, devido à grande
@@ -47,11 +49,16 @@ export default function GD() {
               </p>
             </div>
             <div id="topic" className="flex flex-col gap-6">
-              <div className="flex">
-                <div id="img" className="rounded full">
+              <div className="flex gap-2 align-middle">
+                <div
+                  id="img"
+                  className="rounded-full border-bgray bg-bgray w-8 h-8 flex justify-center align-middle"
+                >
                   <Image src={lighting} alt="lightning gray" />
                 </div>
-                <h3>Quem pode assinar?</h3>
+                <h3 className="font-bold text-base text-lilac md:text-center">
+                  Quem pode assinar?
+                </h3>
               </div>
               <p>
                 Empresas ou pessoas físicas que gastem R$200,00 ou mais em suas
@@ -60,11 +67,16 @@ export default function GD() {
               </p>
             </div>
           </div>
-          <div id="questions">
+          <div id="questions" className="text-sm font-medium">
             <p>
-              Ainda restaram dúvidas?
-              <a href="https://matrixenergia.com/">Clique aqui</a> e fale agora
-              com um de nossos especialistas.
+              Ainda restaram dúvidas?{" "}
+              <a
+                href="https://matrixenergia.com/"
+                className="font-normal text-penblue underline"
+              >
+                Clique aqui
+              </a>{" "}
+              e fale agora com um de nossos especialistas.
             </p>
           </div>
         </div>
