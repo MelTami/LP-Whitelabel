@@ -7,7 +7,7 @@ import link from "./image 44.png";
 
 export default function Advantage() {
   return (
-    <section className="container pt-4 md:pt-12 font-sans">
+    <section className="pt-4 md:pt-12 font-sans flex flex-col justify-center">
       <h2 className="mb-8 md:mb-20 text-center text-adv font-bold text-gray-900">
         Conheça as vantagens
       </h2>

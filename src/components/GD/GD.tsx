@@ -7,7 +7,9 @@ export default function GD() {
     <section className="font-sans justify-center flex flex-row w-full px-29 pt-21">
       <div id="container" className="gap-16 flex flex-col">
         <div id="title">
-          <h2>Entenda mais sobre a Energia Solar por assinatura</h2>
+          <h2 className="font-bold text-adv">
+            Entenda mais sobre a Energia Solar por assinatura
+          </h2>
         </div>
         <div id="content" className="gap-12 flex flex-col">
           <div id="grid" className="gap-14 flex">

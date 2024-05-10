@@ -6,6 +6,7 @@ import Image from "next/image";
 import Button from "@/components/Button/Button";
 import HowWork from "@/components/Como Funciona/Como_Funciona";
 import GD from "@/components/GD/GD";
+import Description from "@/components/Quem Somos/Description";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Advantage />
       <HowWork />
       <GD />
+      <Description />
       <Footer />
     </>
   );
