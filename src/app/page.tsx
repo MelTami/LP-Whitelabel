@@ -8,6 +8,7 @@ import HowWork from "@/components/Como Funciona/Como_Funciona";
 import GD from "@/components/GD/GD";
 import Description from "@/components/Quem Somos/Description";
 import Clientes from "@/components/Clientes/Clientes";
+import Questions from "@/components/FAQ/FAQ";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <GD />
       <Description />
       <Clientes />
+      <Questions />
       <Footer />
     </>
   );
