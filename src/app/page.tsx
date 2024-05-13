@@ -7,6 +7,7 @@ import Button from "@/components/Button/Button";
 import HowWork from "@/components/Como Funciona/Como_Funciona";
 import GD from "@/components/GD/GD";
 import Description from "@/components/Quem Somos/Description";
+import Clientes from "@/components/Clientes/Clientes";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <HowWork />
       <GD />
       <Description />
+      <Clientes />
       <Footer />
     </>
   );
