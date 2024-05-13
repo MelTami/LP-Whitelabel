@@ -4,7 +4,7 @@ import lighting from "./image 45.png";
 
 export default function GD() {
   return (
-    <section className="font-sans justify-center flex flex-row w-full px-29 pt-21">
+    <section className="font-sans justify-center flex flex-row w-full px-29 pt-21 pb-83.41">
       <div id="container" className="gap-16 flex flex-col">
         <div id="title">
           <h2 className="font-bold text-adv">

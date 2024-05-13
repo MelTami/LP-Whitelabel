@@ -42,6 +42,7 @@ const config: Config = {
         "523": "32.688rem",
         "592": "592.87px",
         "103": "103.66px",
+        "517": "517px",
       },
       fontSize: {
         title: ["2rem", "2.14rem"],
@@ -54,6 +55,10 @@ const config: Config = {
         "11.7": "11.7px",
         "40.68": "40.68px",
         "40.84": "40.84px",
+        "46.32": "46.32px",
+        "28.68": "28.68px",
+        "120": "120px",
+        "83.41": "83.41px",
       },
       spacing: {
         "520": "520px",
@@ -71,6 +76,7 @@ const config: Config = {
         ngray: "rgba(91, 90, 90, 1)",
         bgray: "rgba(217, 217, 217, 1)",
         penblue: "rgba(31, 68, 150, 1)",
+        bggray: "rgba(246, 246, 246, 1)",
       },
       borderWidth: {
         DEFAULT: "1px",
@@ -84,6 +90,7 @@ const config: Config = {
       },
       gap: {
         "8.5": "34px",
+        "9.5": "38px",
       },
     },
   },
