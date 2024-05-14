@@ -93,9 +93,15 @@ export default function Form() {
         />
         <div className="w-90 text-check gap-0.5 flex-box">
           <div className="w-90">
-            <input type="checkbox" /> Li e aceito
-            <a> as políticas de privacidade</a>,
-            <a> as políticas de uso cookies </a>,
+            <input type="checkbox" /> Li e aceito{" "}
+            <a className="font-normal text-penblue underline">
+              as políticas de privacidade
+            </a>
+            ,{" "}
+            <a className="font-normal text-penblue underline">
+              as políticas de uso cookies
+            </a>
+            ,{" "}
           </div>
           <p>bem como ser contactado via e-mails, SMS e Whatsapp.</p>
         </div>

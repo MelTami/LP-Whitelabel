@@ -87,6 +87,7 @@ const config: Config = {
         bgray: "rgba(217, 217, 217, 1)",
         penblue: "rgba(31, 68, 150, 1)",
         bggray: "rgba(246, 246, 246, 1)",
+        bordgray: "rgba(131, 133, 135, 1)",
       },
       borderWidth: {
         DEFAULT: "1px",
