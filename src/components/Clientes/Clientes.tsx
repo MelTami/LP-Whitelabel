@@ -1,11 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
 import Image from "next/image";
-import bk from "./Logo.png";
-import marista from "./Group.png";
-import toyota from "./Logo (1).png";
-import br from "./Logo (2).png";
-import klabin from "./image 37.png";
 
 export default function Clientes() {
   return (
@@ -17,18 +12,40 @@ export default function Clientes() {
         <div className="pt-8 pl-8 pb-2.5 pr-2.5">
           <div className="flex gap-14 align-middle justify-center items-center">
             <Image
-              src={bk}
+              src="/LogoBK.png"
               alt="logo do burguer king"
               className="w-65.77 h-71.94"
+              width={66}
+              height={72}
             />
             <Image
-              src={marista}
+              src="/LogoMarista.png"
               alt="logo do colégio marista"
               className="w-124 h-74.44"
+              width={124}
+              height={74}
             />
-            <Image src={toyota} alt="logo da toyota" className="w-79.85 h-52" />
-            <Image src={br} alt="logo da brMalls" className="h-23 w-102" />
-            <Image src={klabin} alt="logo da klabin" className="h-63 w-91" />
+            <Image
+              src="/LogoToyota.png"
+              alt="logo da toyota"
+              className="w-79.85 h-52"
+              width={80}
+              height={52}
+            />
+            <Image
+              src="/LogobrMalls.png"
+              alt="logo da brMalls"
+              className="h-23 w-102"
+              width={102}
+              height={23}
+            />
+            <Image
+              src="/LogoKlabin.png"
+              alt="logo da klabin"
+              className="h-63 w-91"
+              height={63}
+              width={91}
+            />
           </div>
         </div>
         <div className="flex gap-6 justify-center items-center flex-col">

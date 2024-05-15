@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { IAdvantage } from "./Vantagem";
+import { IAdvantage } from "./IAdvantage";
 
 export function SingleAdvantage({ title, img, text, alt }: IAdvantage) {
   return (

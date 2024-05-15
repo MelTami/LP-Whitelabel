@@ -1,8 +1,7 @@
 "use client";
-
 import React, { useState } from "react";
-import { vantagem } from "./Vantagem/Vantagem";
-import { SingleAdvantage } from "./Vantagem/Advantage";
+import { vantagem } from "./SingleAdvantage/IAdvantage";
+import { SingleAdvantage } from "./SingleAdvantage/SingleAdvantage";
 
 export default function Advantage() {
   const [advantage, setAdvantage] = useState(vantagem);
