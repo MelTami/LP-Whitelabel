@@ -1,3 +1,8 @@
+export interface IQuestion {
+  question: string;
+  answer: string;
+}
+
 export const faq = [
   {
     question: "Quem pode aderir?",

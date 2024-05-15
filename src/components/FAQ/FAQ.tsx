@@ -7,16 +7,19 @@ export default function Questions() {
   const [cards, setCards] = useState(faq);
   return (
     <section className="p-8 px-12 font-sans bg-bggray">
-      <div className="flex justify-center items-center flex-col">
+      <div className="flex justify-center items-center flex-col gap-16">
         <h2 className="font-bold text-adv">Perguntas frequentes</h2>
-        <div>
+        <div className="flex flex-col gap-16">
           <div>
             {cards.map((card, index) => (
               <Question {...card} key={index} />
             ))}
           </div>
-          <div id="sigificados" className="justify-start flex flex-col gap-8">
-            <p>
+          <div
+            id="sigificados"
+            className="justify-start flex flex-col gap-8 font-light text-xs"
+          >
+            <p className="font-medium text-sm">
               Ainda restaram dúvidas?{" "}
               <a className="font-normal text-penblue underline">Clique aqui</a>{" "}
               e fale agora com um de nossos especialistas.

@@ -59,6 +59,7 @@ const config: Config = {
         check: ["0.625rem", "1.5rem"],
         navbar: ["0.75rem", "1.5rem"],
         adv: ["1.5rem", "2.25rem"],
+        faq: ["16px", "20px"],
       },
       padding: {
         "5px": "5px",
@@ -102,6 +103,9 @@ const config: Config = {
       gap: {
         "8.5": "34px",
         "9.5": "38px",
+      },
+      rotate: {
+        "135": "135deg",
       },
     },
   },
