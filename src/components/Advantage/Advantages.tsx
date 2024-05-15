@@ -7,8 +7,8 @@ import { SingleAdvantage } from "./Vantagem/Advantage";
 export default function Advantage() {
   const [advantage, setAdvantage] = useState(vantagem);
   return (
-    <section className="pt-4 md:pt-12 font-sans flex flex-col justify-center items-center">
-      <h2 className="mb-8 md:mb-20 text-center text-adv font-bold text-gray-900">
+    <section className="pt-4 md:pt-12 font-sans flex flex-col justify-center items-center gap-16">
+      <h2 className="text-center text-adv font-bold text-gray-900">
         Conheça as vantagens
       </h2>
       <div className="flex justify-center items-center px-22 align-top gap-16">

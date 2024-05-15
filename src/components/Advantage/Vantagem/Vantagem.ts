@@ -1,14 +1,4 @@
-import tree from "../img/3736569 1.png";
-import cellphone from "../img/image 43.png";
-import pig from "../img/5209019 3.png";
-import link from "../img/image 44.png";
-
-type StaticImageData = {
-  src: string;
-  height: number;
-  width: number;
-  blurDataURL?: string;
-};
+import { StaticImageData } from "next/image";
 
 export interface IAdvantage {
   title: string;
@@ -20,25 +10,25 @@ export interface IAdvantage {
 export const vantagem = [
   {
     title: "Sustentável",
-    img: { tree },
+    img: "/tree.png",
     alt: "little tree inside half earth",
     text: "Ajude o planeta sendo um consumidor de energia renovável.",
   },
   {
     title: "Simples e digital",
-    img: { cellphone },
+    img: "/cellphone.png",
     text: "Contrate de forma rápida e segura, sem pagar nada e sem sair de casa.",
     alt: "a hand in a cellphone",
   },
   {
     title: "Zero investimento",
-    img: { pig },
+    img: "/pig.png",
     text: "Economize mais de uma conta de luz por ano sem gastar com instalação de placas solares.",
     alt: "pig",
   },
   {
     title: "Sem fidelidade",
-    img: { link },
+    img: "/brokenlink.png",
     text: "Tenha liberdade para cancelar quando quiser. De forma fácil, sem taxas ou multas.",
     alt: "broken link",
   },
