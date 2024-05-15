@@ -3,23 +3,13 @@ import style from "./Footer.module.css";
 import logo from "./logo_matrix_laranja.png";
 import img from "./Rectangle 14 (Stroke).png";
 import Image from "next/image";
+import { Logo } from "../Logo/Logo";
 
 export default function Footer() {
   return (
     <footer className="bg-white gap-6">
       <div className="flex items-center justify-center py-8 gap-3">
-        <div className="flex gap-2">
-          <Image
-            src={img}
-            alt="Purple square with a cross in the middle"
-            className="w-5 h-5"
-          />
-          <p className="font-sans text-lilac align-middle text-base font-semibold">
-            Brand
-          </p>
-        </div>
-        <div className="bg-black w-px h-5"></div>
-        <Image src={logo} alt="footer img" width={63.99} height={22.73} />
+        <Logo />
       </div>
       <div className="text-center">
         <p className="font-sans text-black text-xs font-medium">

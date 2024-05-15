@@ -9,14 +9,14 @@ import { List } from "./List/List";
 export default function HowWork() {
   const [item, setItem] = useState(items);
   return (
-    <section className="container flex gap-18 font-sans pl-117.5">
+    <section className="container flex gap-18 font-sans pl-117.5 pb-8">
       <div className="w-456 h-686">
         <Image
           src="/photovoltaic-panels-green.png"
           alt="painel solar"
           width={456}
           height={686}
-          className="object-cover"
+          className="object-cover w-456 h-686"
         />
       </div>
       <div id="text-div" className="flex flex-col gap-12">

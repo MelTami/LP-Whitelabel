@@ -21,11 +21,7 @@ export function Topic({ title, text }: ITopic) {
           {title}
         </h3>
       </div>
-      <p>
-        É a modalidade onde a geração de energia elétrica ocorre em usinas
-        solares, sendo distribuída aos assinantes de maneira remota, através das
-        redes de distribuição.
-      </p>
+      <p>{text}</p>
     </div>
   );
 }

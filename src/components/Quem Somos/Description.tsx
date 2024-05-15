@@ -4,8 +4,8 @@ import { Carrossel } from "./Carrossel/Carrossel";
 export default function Description() {
   return (
     <section className="font-sans bg-bggray py-46.32 pr-28.68 pl-120 ">
-      <div className="gap-6 flex">
-        <div id="text" className="gap-9.5 flex flex-col">
+      <div className="gap-6 flex justify-between">
+        <div id="text" className="gap-9.5 flex flex-col w-598">
           <h2 className="font-bold text-adv">Conheça a Matrix Energia</h2>
           <div className="gap-4 flex flex-col">
             <div id="content" className="gap-2 flex flex-col font-medium">
