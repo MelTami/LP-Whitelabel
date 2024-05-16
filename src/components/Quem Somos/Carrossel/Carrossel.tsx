@@ -10,12 +10,12 @@ export function Carrossel() {
         <button
           type="button"
           className="border-white border-r-2 border-b-2 p-2 rotate-135 ml-2"
-          onClick={() => setClicked(true)}
+          onClick={() => setClicked(!clicked)}
         ></button>
         <button
           type="button"
           className="border-white border-r-2 border-b-2 p-2 -rotate-45 mr-2"
-          onClick={() => setClicked(false)}
+          onClick={() => setClicked(!clicked)}
         ></button>
       </div>
       <div className=" flex w-full">
