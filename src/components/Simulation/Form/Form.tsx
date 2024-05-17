@@ -11,7 +11,7 @@ interface IForm {
 
 export default function Form() {
   return (
-    <section className="w-128 font-sans gap-6 flex flex-col bg-gradient-to-r from-white">
+    <section className="w-128 font-sans gap-6 flex flex-col">
       <div>
         <h1 className="font-bold text-title">Sua conta de luz</h1>
         <h1 className=" font-bold text-lilac text-title">
