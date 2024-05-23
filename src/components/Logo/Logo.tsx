@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function Logo() {
   return (
-    <div className="flex gap-2">
+    <div className="flex gap-2 pl-6">
       <div className="flex">
         <Image
           src="/Rectangle 14 (Stroke).png"

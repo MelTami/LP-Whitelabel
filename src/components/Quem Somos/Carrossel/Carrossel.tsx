@@ -10,9 +10,13 @@ import "swiper/css/pagination";
 export function Carrossel() {
   return (
     <div>
-      <Swiper>
-        <SwiperSlide>
-          <div>
+      <Swiper
+        modules={[Navigation, Pagination]}
+        slidesPerView={2}
+        spaceBetween={1}
+      >
+        <SwiperSlide className="flex justify-center items-center">
+          <div className="flex justify-center items-center">
             <Image
               src="/photovoltaic-panels-green.png"
               alt="photovoltaic panels in a green local"
@@ -20,6 +24,8 @@ export function Carrossel() {
               height={414}
             />
           </div>
+        </SwiperSlide>
+        <SwiperSlide className="flex justify-center items-center">
           <div>
             <Image
               src="/usina-solar.png"
