@@ -1,21 +1,6 @@
 import type { Metadata } from "next";
-import { Inter, Poppins, Lexend } from "next/font/google";
+import { lexend, poppins, inter } from "./font";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
-
-const lexend = Lexend({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-lexend",
-});
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: "600",
-  display: "swap",
-  variable: "--font-poppins",
-});
 
 export const metadata: Metadata = {
   title: "LP Whitelabel",
@@ -28,9 +13,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${lexend.variable} ${poppins.variable}`}>
+    <html lang="en">
       <head></head>
-      <body className={inter.className}>{children}</body>
+      <body className={`${lexend.variable} ${poppins.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

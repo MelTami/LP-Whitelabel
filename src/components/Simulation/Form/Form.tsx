@@ -11,19 +11,21 @@ interface IForm {
 
 export default function Form() {
   return (
-    <section className="w-128 font-sans gap-6 flex flex-col">
+    <section className="font-sans gap-6 flex flex-col flex-wrap">
       <div>
-        <h1 className="font-bold text-title">Sua conta de luz</h1>
-        <h1 className=" font-bold text-lilac text-title">
-          mais barata e mais sustentável
-        </h1>
-        <p className="font-light text-xs">
+        <h2 className="font-bold text-title whitespace-pre-line">
+          Sua conta de luz{" "}
+          <span className=" font-bold text-lilac text-title">
+            mais barata e mais sustentável
+          </span>
+        </h2>
+        <p className="font-light text-xs whitespace-pre-line">
           Preencha os campos abaixo e simule o quanto você pode economizar.
         </p>
       </div>
 
-      <form className="flex flex-col gap-8  w-429">
-        <div className="font-light text-sm w-409 flex-col flex gap-4">
+      <form className="flex flex-col gap-8">
+        <div className="font-light text-sm flex-col flex gap-4">
           <div className="w-409 gap-0.5 flex-col flex">
             <label htmlFor="name" className="font-medium w-28">
               Nome Completo
@@ -31,12 +33,12 @@ export default function Form() {
             <input
               type="text"
               placeholder="Informe seu nome completo "
-              className="border-b border-slate-400 w-409"
+              className="border-b border-slate-400"
               id="name"
             />
           </div>
           <div className="flex gap-6">
-            <div className="w-51">
+            <div>
               <label htmlFor="phone" className="font-medium">
                 Celular
               </label>
@@ -48,14 +50,14 @@ export default function Form() {
                 id="phone"
               />
             </div>
-            <div className="gap-0.5 w-46">
+            <div className="gap-0.5">
               <label htmlFor="state" className="font-medium">
                 Estado
               </label>
               <select
                 id="state"
                 name="states"
-                className="border-b border-slate-400 justify-between text-lgray w-46"
+                className="border-b border-slate-400 justify-between text-lgray"
               >
                 <option value="" disabled selected>
                   Selecione
@@ -97,7 +99,7 @@ export default function Form() {
             <input
               type="text"
               placeholder="Informe o valor médio da conta"
-              className="border-b border-slate-400 w-409"
+              className="border-b border-slate-400"
               id="value"
             />
           </div>
@@ -107,7 +109,7 @@ export default function Form() {
           <input
             type="text"
             placeholder="Informe o código"
-            className="border-b border-slate-400 w-409"
+            className="border-b border-slate-400"
             id="code"
           />
           <div className="w-90 text-check gap-0.5 flex-box">

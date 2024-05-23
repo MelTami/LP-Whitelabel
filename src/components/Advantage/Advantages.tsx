@@ -10,7 +10,7 @@ export default function Advantage() {
       <h2 className="text-center text-adv font-bold text-gray-900">
         Conheça as vantagens
       </h2>
-      <div className="flex justify-center items-center px-22 align-top gap-16">
+      <div className="flex justify-center items-center px-[22px] align-top gap-10 flex-wrap">
         {advantage.map((vantagem, index) => (
           <SingleAdvantage {...vantagem} key={index} />
         ))}

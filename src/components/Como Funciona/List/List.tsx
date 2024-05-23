@@ -8,9 +8,9 @@ export function List({ number, title, text }: IList) {
         <div className=" rounded-full w-7 h-7 border border-black text-center text-base font-bold">
           {number}
         </div>
-        <hr className="border-lilac rotate-90 border-2" />
+        <hr className="border-lilac rotate-90 border-[1.5px] rounded-xl w-full" />
       </div>
-      <div>
+      <div className="pb-6">
         <h3 className="text-lilac font-bold text-base">{title}</h3>
         <p className="font-medium text-sm">{text}</p>
       </div>

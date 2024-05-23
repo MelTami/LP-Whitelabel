@@ -6,7 +6,7 @@ import { element } from "./Topic/ITopic";
 export default function GD() {
   const [topics, setTopics] = useState(element);
   return (
-    <section className="font-sans justify-center flex flex-row w-full px-29 pb-83.41">
+    <section className="font-sans justify-center flex flex-row pb-83.41 px-6">
       <div id="container" className="gap-16 flex flex-col">
         <div id="title">
           <h2 className="font-bold text-adv">
@@ -14,7 +14,7 @@ export default function GD() {
           </h2>
         </div>
         <div id="grid" className="gap-14 flex flex-col">
-          <div id="topic" className="flex flex-row gap-6">
+          <div id="topic" className="flex flex-row flex-wrap gap-[4rem]">
             {topics.map((topics, index) => (
               <Topic key={index} {...topics} />
             ))}
