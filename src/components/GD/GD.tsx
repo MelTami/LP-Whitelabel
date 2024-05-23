@@ -14,7 +14,10 @@ export default function GD() {
           </h2>
         </div>
         <div id="grid" className="gap-14 flex flex-col">
-          <div id="topic" className="flex flex-row flex-wrap gap-[4rem]">
+          <div
+            id="topic"
+            className="flex flex-row flex-wrap lg:flex-nowrap gap-[4rem]"
+          >
             {topics.map((topics, index) => (
               <Topic key={index} {...topics} />
             ))}
