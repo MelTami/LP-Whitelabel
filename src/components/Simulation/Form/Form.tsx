@@ -11,9 +11,9 @@ interface IForm {
 
 export default function Form() {
   return (
-    <section className="font-sans gap-6 flex flex-col flex-wrap">
-      <div>
-        <h2 className="font-bold text-title whitespace-pre-line">
+    <div className="font-sans gap-6 flex-col flex-wrap lg:w-409">
+      <div className="pb-6">
+        <h2 className="font-bold text-title whitespace-pre-line pb-2">
           Sua conta de luz{" "}
           <span className=" font-bold text-lilac text-title">
             mais barata e mais sustentável
@@ -24,10 +24,10 @@ export default function Form() {
         </p>
       </div>
 
-      <form className="flex flex-col gap-8">
+      <form className="flex flex-col gap-8 px-6">
         <div className="font-light text-sm flex-col flex gap-4">
-          <div className="w-409 gap-0.5 flex-col flex">
-            <label htmlFor="name" className="font-medium w-28">
+          <div className="gap-0.5 flex-col flex">
+            <label htmlFor="name" className="font-medium">
               Nome Completo
             </label>
             <input
@@ -37,20 +37,20 @@ export default function Form() {
               id="name"
             />
           </div>
-          <div className="flex gap-6">
-            <div>
+          <div className="gap-4 flex flex-col lg:flex-row">
+            <div className="gap-0.5 flex-col flex lg:w-51">
               <label htmlFor="phone" className="font-medium">
                 Celular
               </label>
               <input
                 type="tel"
                 placeholder="(00) 00000-0000"
-                className="border-b border-slate-400 w-51"
+                className="border-b border-slate-400"
                 required
                 id="phone"
               />
             </div>
-            <div className="gap-0.5">
+            <div className="gap-0.5 flex-col flex lg:w-51">
               <label htmlFor="state" className="font-medium">
                 Estado
               </label>
@@ -92,7 +92,7 @@ export default function Form() {
               </select>
             </div>
           </div>
-          <div>
+          <div className="gap-0.5 flex-col flex">
             <label htmlFor="value" className="font-medium">
               Qual o valor médio da sua conta de luz?
             </label>
@@ -112,25 +112,27 @@ export default function Form() {
             className="border-b border-slate-400"
             id="code"
           />
-          <div className="w-90 text-check gap-0.5 flex-box">
-            <div className="w-90">
-              <input type="checkbox" required /> Li e aceito{" "}
-              <a className="font-normal text-penblue underline">
-                as políticas de privacidade
-              </a>
-              ,{" "}
-              <a className="font-normal text-penblue underline">
-                as políticas de uso cookies
-              </a>
-              ,{" "}
-            </div>
-            bem como ser contactado via e-mails, SMS e Whatsapp.
+          <div className="text-[10px] gap-0.5 flex align-middle items-start">
+            <input type="checkbox" required id="politica" />
+            <label htmlFor="politica">
+              <p>
+                Li e aceito{" "}
+                <a className="font-normal text-penblue underline">
+                  as políticas de privacidade
+                </a>
+                ,{" "}
+                <a className="font-normal text-penblue underline">
+                  as políticas de uso cookies
+                </a>
+                , bem como ser contactado via e-mails, SMS e Whatsapp.
+              </p>
+            </label>
           </div>
         </div>
-        <div>
+        <div className="flex justify-center">
           <Button />
         </div>
       </form>
-    </section>
+    </div>
   );
 }
