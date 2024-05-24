@@ -3,10 +3,15 @@ import { Carrossel } from "./Carrossel/Carrossel";
 
 export default function Description() {
   return (
-    <section className="font-sans bg-bggray py-46.32 pr-28.68 pl-120 ">
-      <div className="gap-6 flex justify-between">
-        <div id="text" className="gap-9.5 flex flex-col w-598">
-          <h2 className="font-bold text-adv">Conheça a Matrix Energia</h2>
+    <section className="font-sans bg-bggray lg:py-46.32 lg:pr-28.68 lg:pl-120 ">
+      <div className="gap-6 flex justify-between align-middle items-center">
+        <div id="text" className="gap-9.5 flex flex-col lg:w-598 px-6 pb-8">
+          <h2 className="font-bold text-adv text-center pt-12">
+            Conheça a Matrix Energia
+          </h2>
+          <div className="lg:hidden md:hidden">
+            <Carrossel />
+          </div>
           <div className="gap-4 flex flex-col">
             <div id="content" className="gap-2 flex flex-col font-medium">
               <p>
@@ -40,13 +45,15 @@ export default function Description() {
                 <hr className="border-lilac w-6 border-3 rounded-sm" />
                 <p>
                   1ª comercializadora de energia a ser classificada com Rating A
-                  pela S&P Global Ratings, em 2023. 
+                  pela S&P Global Ratings, em 2023.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <Carrossel />
+        <div className="hidden lg:block md:block">
+          <Carrossel />
+        </div>
       </div>
     </section>
   );

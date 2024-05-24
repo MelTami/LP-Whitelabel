@@ -6,36 +6,32 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { images } from "./images";
 
 export function Carrossel() {
   return (
-    <div>
-      <Swiper
-        modules={[Navigation, Pagination]}
-        slidesPerView={2}
-        spaceBetween={1}
-      >
-        <SwiperSlide className="flex justify-center items-center">
-          <div className="flex justify-center items-center">
-            <Image
-              src="/photovoltaic-panels-green.png"
-              alt="photovoltaic panels in a green local"
-              width={550}
-              height={414}
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="flex justify-center items-center">
-          <div>
-            <Image
-              src="/usina-solar.png"
-              alt="image"
-              width={743}
-              height={418}
-            />
-          </div>
-        </SwiperSlide>
-      </Swiper>
-    </div>
+    <section className="flex justify-center">
+      <div className="w-[300px] lg:w-[600px] lg:h-[490px]">
+        <Swiper
+          navigation
+          pagination={{ type: "bullets", clickable: true }}
+          modules={[Navigation, Pagination]}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <div className="flex h-auto w-full items-center justify-center">
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  className="block h-full w-full object-cover"
+                  width={300}
+                />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </section>
   );
 }
