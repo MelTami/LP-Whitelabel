@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Clientes() {
   return (
-    <section className="py-12 flex justify-center font-sans mx-2">
+    <section className="py-12 flex justify-center font-sans mx-2" id="clientes">
       <div className="gap-10 flex flex-col">
         <h2 className="font-bold text-adv text-center">
           Grandes empresas que confiam em nossas soluções

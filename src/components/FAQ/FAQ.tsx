@@ -6,7 +6,7 @@ import { Question } from "./Questions/Question";
 export default function Questions() {
   const [cards, setCards] = useState(faq);
   return (
-    <section className="p-8 px-12 font-sans bg-bggray">
+    <section className="p-8 px-12 font-sans bg-bggray" id="faq">
       <div className="flex justify-center items-center flex-col gap-16">
         <h2 className="font-bold text-adv">Perguntas frequentes</h2>
         <div className="flex flex-col gap-16">

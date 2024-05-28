@@ -2,14 +2,16 @@
 import React, { useState } from "react";
 import Button from "../Button/Button";
 import Image from "next/image";
-import img from "./aerial-view-large-sustainable-electrical-power-plant-with-many-rows-solar-photovoltaic-panels 1.png";
 import { items } from "./List/IList";
 import { List } from "./List/List";
 
 export default function HowWork() {
   const [item, setItem] = useState(items);
   return (
-    <section className="container flex gap-18 font-sans pb-8">
+    <section
+      className="container flex gap-18 font-sans pb-8"
+      id="funcionamento"
+    >
       <div className=" hidden lg:block">
         <Image
           src="/photovoltaic-panels-green.png"

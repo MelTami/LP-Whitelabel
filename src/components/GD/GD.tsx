@@ -6,7 +6,10 @@ import { element } from "./Topic/ITopic";
 export default function GD() {
   const [topics, setTopics] = useState(element);
   return (
-    <section className="font-sans justify-center flex flex-row pb-83.41 px-6">
+    <section
+      className="font-sans justify-center flex flex-row pb-83.41 px-6"
+      id="energia"
+    >
       <div id="container" className="gap-16 flex flex-col">
         <div id="title">
           <h2 className="font-bold text-adv">

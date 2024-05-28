@@ -6,7 +6,10 @@ import { SingleAdvantage } from "./SingleAdvantage/SingleAdvantage";
 export default function Advantage() {
   const [advantage, setAdvantage] = useState(vantagem);
   return (
-    <section className="pt-4 md:pt-12 font-sans flex flex-col justify-center items-center gap-16">
+    <section
+      className="pt-4 md:pt-12 font-sans flex flex-col justify-center items-center gap-16"
+      id="vantagens"
+    >
       <h2 className="text-center text-adv font-bold text-gray-900">
         Conheça as vantagens
       </h2>
